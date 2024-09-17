@@ -4,6 +4,7 @@
     --botao-amarelo: #e8c92e;
     --cor-de-fundo: #755d1d;
     --fonte-principal: 'Inter';
+    --botao-amarelo-efeito: #cdc28a;
 }
 
 body {
@@ -139,3 +140,17 @@ body {
     text-align: center;
     margin: 5em 3em;
 }
+
+.lista__link a:hover {
+    color: var(--botao-amarelo);
+}
+
+.lista__link a:active {
+    color: rgb(255, 140, 0);
+}
+
+.container__botao:hover {
+    background-color: var(--botao-amarelo-efeito);
+    color: var(--cor-de-fundo);
+}
+
