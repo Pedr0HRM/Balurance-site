@@ -31,7 +31,7 @@ body {
 .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 50% 50% 50%;
+    grid-template-columns: 50% 50%;
 }
 
 .container__botao {
@@ -46,7 +46,7 @@ body {
 
 .botao_secundario {
     background-color: transparent;
-    border: 2px solid var(--branco-principal);
+    border: 2px solid var(--branco-principal)
 }
 
 .container__aviso {
@@ -117,6 +117,11 @@ body {
     color: var(--branco-principal);
 }
 
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
 .rodape__lista {
     display: flex;
     justify-content: center;
@@ -124,7 +129,7 @@ body {
     margin-top: 1em;
 }
 
-.lista__link a{
+.lista__link a {
     text-decoration: none;
     color: var(--branco-principal);
     margin-left: 1em;
@@ -136,21 +141,15 @@ body {
     font-size: 14px;
 }
 
-.rodape {
-    text-align: center;
-    margin: 5em 3em;
-}
-
 .lista__link a:hover {
     color: var(--botao-amarelo);
 }
 
 .lista__link a:active {
-    color: rgb(255, 140, 0);
+    color: purple;
 }
 
 .container__botao:hover {
     background-color: var(--botao-amarelo-efeito);
     color: var(--cor-de-fundo);
 }
-
